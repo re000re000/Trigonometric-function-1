@@ -1,0 +1,16 @@
+# Trigonometric-function-# PYTHON_MATH_TRIGONOMETRIC_02
+
+# In[2]
+
+def dsin(x):
+    return math.sin(math.radians(x))
+
+def dcos(x):
+    return math.cos(math.radians(x))
+
+def dtan(x):
+    return math.tan(math.radians(x))
+
+print("sin60°: {}".format(dsin(60)))
+print("cos60°: {}".format(dcos(60)))
+print("tan60°: {}".format(dtan(60)))

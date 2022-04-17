@@ -1,0 +1,15 @@
+# PYTHON_MATH_TRIGONOMETRIC_01
+
+# In[1]
+
+import math
+
+pi = math.pi
+
+val_sin = math.sin(pi/6)
+val_cos = math.cos(pi/6)
+val_tan = math.tan(pi/6)
+
+print("sin(pi/6) : {}".format(val_sin))
+print("cos(pi/6) : {}".format(val_cos))
+print("tan(pi/6) : {}".format(val_tan))
